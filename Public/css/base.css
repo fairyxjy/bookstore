@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*css reset*/
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,label,input,select,dl,dt,dd,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+body {font-size:12px;line-height:normal;color:#666;font-family:"Microsoft YaHei","微软雅黑",SimSun,"Oxygen",Arial,"Hiragino Sans GB","STHeiti","WenQuanYi Micro Hei",sans-serif;-webkit-text-size-adjust:none; background:#FFF;}
+header,footer,section,hgroup,nav,article,aside,details,figcaption,figure,menu {display:block;}
+input {font-size:12px;line-height:16px;}
+input::-ms-clear{display:none;}
+input::-ms-reveal{display:none;}
+img {border:0;}
+ul {list-style:none;}
+textarea{resize:none; overflow:auto;}
+/* 颜色链接 */
+a:link,a:visited {color:#2e2e2e;text-decoration:none;}
+a:hover {transition:all 0.3s ease-in-out 0s;}
+textarea{outline:none;}
+/* HTY Common Reset*/
+html{overflow-x:hidden;}
+html button::-moz-focus-inner{border-color:transparent!important;}
+input,button,textarea,select,option{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}
+fieldset{border:0;}
+iframe{background-image:none;}
+p{margin:0;padding:0;}
+a{text-decoration:none;outline:none;}
+/* HTY Common Atom*/
+.clear{background:none;border:0;clear:both;display:block;float:none;font-size:0;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clear-fix:after{content:"."; display:block; height:0; font-size:0; clear:both; visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+.c_b{clear:both;}
